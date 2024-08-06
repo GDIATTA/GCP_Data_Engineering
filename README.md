@@ -23,5 +23,16 @@ Get started : <br>
 > In Schedule, set the number of days of your table if you activate the expiration of your table.<br>
 > Next, click on "create Dataset".<br>
 
+4. Once the Dataset created, find it to click on to create a table as follow :<br>
+> In source, choose **Google Cloud Storage** from the options(empty table, Google Cloud Storage, Import, Drive, Google Bigtable, Amazon S3, Azure Blob Storage).<br>
+> Browse to select the source file and choose the file format.<br>
+> In the Destination section, select the project ID, the dataset that contains the table, and set the table name.<br>
+> In the Schema section, select "Automatically detect."<br>
+> Leave other options as default and click on "Create Table."<br>
+
+5. Once the table is created, click on it to open, make a query, or create a notebook.<br>
+
+
+
 
 
