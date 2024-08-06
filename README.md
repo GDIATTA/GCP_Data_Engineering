@@ -15,9 +15,9 @@ There are several ways to ingest data into BigQuery:<br>
 With batch loading, you load the source data into a BigQuery table in a single batch operation. For example, the data source could be a CSV file, an external database, or a set of log files. Traditional extract, transform, and load (ETL) jobs fall into this category.<br>
 
 Get started : <br>
-+1. Open the BigQuery page in the Google Cloud console(Go to the BigQuery page).<br>
-+2. Once BigQuery opened, in Explorer, select on the ID project and then choose create Dataset.<br>
-+3. On you right, a Windows opened to prompt to fullfill, as follows:<br>
+1. Open the BigQuery page in the Google Cloud console(Go to the BigQuery page).<br>
+2. Once BigQuery opened, in Explorer, select on the ID project and then choose create Dataset.<br>
+3. On you right, a Windows opened to prompt to fullfill, as follows:<br>
 > In ID project, give a name for ID Dataset.<br>
 > In Location, choose Region or Multi-region and select the region that you want to store your Dataset.<br>
 > In Schedule, set the number of days of your table if you activate the expiration of your table.<br>
