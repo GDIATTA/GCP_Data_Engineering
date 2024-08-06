@@ -37,6 +37,20 @@ Get started : <br>
 ![Capture d’écran 2024-08-01 123513](https://github.com/user-attachments/assets/688b5642-68d4-4ce8-9750-27736fb93f8a)
 ![Capture d’écran 2024-08-01 160317](https://github.com/user-attachments/assets/b095d264-7f72-4f0b-9c38-bccf26edb346)
 
+#### ---------------------------- Use a third-party application or service -----------------------------------:
+Get started :
+
+1. Open your IDE, Vs Code is used for this tutorial and then create workspace folder.<br>
+2. Check if you have **virtualenv**. Else you will set up it. <br>
+  ![Capture d’écran 2024-08-01 144538](https://github.com/user-attachments/assets/58433284-09f2-431e-930c-6816aa2bce87)
+
+3. Set up your virtual environment by using **virtualenv venv** and then **activate** it. <br>
+4. Set up the library **google cloud bigquery** by using as follow on this picture. <br>
+    ![Capture d’écran 2024-08-01 150232](https://github.com/user-attachments/assets/5ef90633-9da4-4832-b992-d9034050b542)
+5. Create a python script to ingest data into bigquery, as follow: <br>
+   ![Capture d’écran 2024-08-01 150426](https://github.com/user-attachments/assets/ab3f8160-b5ca-4465-9d52-4131641aa9b5)
+   ![Capture d’écran 2024-08-01 152136](https://github.com/user-attachments/assets/174e9b99-28de-4129-a75e-24578a9c101c)
+
 
 
 
