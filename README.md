@@ -35,6 +35,7 @@ Get started : <br>
 
 5. Once the table is created, click on it to open, make a query, or create a notebook.<br>
 ![Capture d’écran 2024-08-01 123513](https://github.com/user-attachments/assets/688b5642-68d4-4ce8-9750-27736fb93f8a)
+![Capture d’écran 2024-08-01 160317](https://github.com/user-attachments/assets/b095d264-7f72-4f0b-9c38-bccf26edb346)
 
 
 
