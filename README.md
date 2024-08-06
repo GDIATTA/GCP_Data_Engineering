@@ -31,8 +31,11 @@ Get started : <br>
 > In the Destination section, select the project ID, the dataset that contains the table, and set the table name.<br>
 > In the Schema section, select "Automatically detect."<br>
 > Leave other options as default and click on "Create Table."<br>
+![Capture d’écran 2024-08-01 122547](https://github.com/user-attachments/assets/15a5a6b6-ee23-4e2f-9656-3d24431d8b37)
 
 5. Once the table is created, click on it to open, make a query, or create a notebook.<br>
+![Capture d’écran 2024-08-01 123513](https://github.com/user-attachments/assets/688b5642-68d4-4ce8-9750-27736fb93f8a)
+
 
 
 
