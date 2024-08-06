@@ -17,11 +17,13 @@ With batch loading, you load the source data into a BigQuery table in a single b
 Get started : <br>
 1. Open the BigQuery page in the Google Cloud console(Go to the BigQuery page).<br>
 2. Once BigQuery opened, in Explorer, select on the ID project and then choose create Dataset.<br>
+![Capture d’écran 2024-08-01 115931](https://github.com/user-attachments/assets/815bf06c-b539-46f0-9a8d-adafa167a847)
 3. On you right, a Windows opened to prompt to fullfill, as follows:<br>
 > In ID project, give a name for ID Dataset.<br>
 > In Location, choose Region or Multi-region and select the region that you want to store your Dataset.<br>
 > In Schedule, set the number of days of your table if you activate the expiration of your table.<br>
 > Next, click on "create Dataset".<br>
+![Capture d’écran 2024-08-01 121214](https://github.com/user-attachments/assets/debab317-d8b6-48ec-9c84-4ae977d66a21)
 
 4. Once the Dataset created, find it to click on to create a table as follow :<br>
 > In source, choose **Google Cloud Storage** from the options(empty table, Google Cloud Storage, Import, Drive, Google Bigtable, Amazon S3, Azure Blob Storage).<br>
