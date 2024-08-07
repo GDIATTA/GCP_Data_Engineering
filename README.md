@@ -52,6 +52,49 @@ Get started :
    ![Capture d’écran 2024-08-01 152136](https://github.com/user-attachments/assets/174e9b99-28de-4129-a75e-24578a9c101c)
 
 
+#### ------------------------ Stream individual records or batches of records -----------------------------:
+
+Get started : <br>
+
+1. On your left, click on **Data Transfer**, then select **create a transfer** and enable **API Data Transfer**.<br>
+
+  ![Capture d’écran 2024-08-06 163254](https://github.com/user-attachments/assets/651a3a05-9c05-497c-ae8e-7c28a21d9bf3)
+  ![Capture d’écran 2024-08-06 163404](https://github.com/user-attachments/assets/e3f6f8f3-60d4-4e30-8778-5967846aef3d)
+
+2. For **Type of source**, choose the desired source.In this tutorial, choose **Google Cloud Storage**.<br>
+
+  ![Capture d’écran 2024-08-06 163601](https://github.com/user-attachments/assets/ab0c2709-eb3a-4dbd-879e-f3dc0425efae)
+  
+3. In **Transfer Setting Name**, enter a name for the transfer.<br>
+4. For **Freqency of Data Collection**, choose **On Demande**.<br>
+5. In **Destination configuration**, choose a **Dataset**.<br>
+
+  ![Capture d’écran 2024-08-06 164951](https://github.com/user-attachments/assets/e6576c47-798d-4b20-9947-6083caecae8c)
+  
+6. In **Data Source Details**,follow these steps :<br>
+>  Set a **Destination table**.<br>
+>  For **Cloud Storage URI**, browser your directory and set the path that contains all files to transfer.<br>
+>  For **Write preference**, choose one of the optional (**APPEND**, **MIRROR**).<br>
+>  For **File format**, select the appropriate file format.<br>
+
+![Capture d’écran 2024-08-06 165031](https://github.com/user-attachments/assets/31362844-e615-4838-b421-ddb9c7b66759)
+
+7. In **Format type**, complete the following :<br>
+> Set the **field delimiter**.<br>
+> Set the **Header Rows to skip**.<br>
+
+![Capture d’écran 2024-08-06 165111](https://github.com/user-attachments/assets/151472bf-76ee-47c2-9fce-ec294ecbd205)
+
+8. Leave other options as default and click on **Save**.<br>
+
+![Capture d’écran 2024-08-06 165137](https://github.com/user-attachments/assets/f4f14f89-a247-4b76-98d7-349cd8f92003)
+9. On the top right, select **execute transfer**.<br>
+
+![Capture d’écran 2024-08-06 165528](https://github.com/user-attachments/assets/ce7ef00f-2b89-43cd-8632-64f7a4430526)
+![Capture d’écran 2024-08-06 165618](https://github.com/user-attachments/assets/cb34e84b-33dc-4e15-900b-9b790956183f)
+![Capture d’écran 2024-08-06 170026](https://github.com/user-attachments/assets/a0632774-236c-4bd1-b697-035672e33f3f)
+
+
 
 
 
