@@ -115,6 +115,37 @@ You can use **data manipulation language (DML)** to transform data in your BigQu
 
 You can run multiple **DML** statements concurrently, where BigQuery queues several **DML** statements that transform your data one after the other. BigQuery manages how concurrent **DML** statements are run, based upon the transformation type.<br>
 
+For practice with this **DML**, you can use the scripts in the BigQuery folder of this repository. However, to use them as I do, you'll need to **generate a credentials file configured with permissions to edit, update, create, and delete in BigQuery**. 
+This do itself as follow:
+> Open the **IAM and Admin** an select **Service account**.
+> Click on **create a service account**.
+
+![Capture d’écran 2024-08-08 135139](https://github.com/user-attachments/assets/7513cbd0-e503-42a2-82bf-aa1a249c1779)
+
+> In the **service account details** window:
+>> Set a name for the service account.
+>> Provide a description(optional), then click **Create and continue**.
+
+![Capture d’écran 2024-08-08 140301](https://github.com/user-attachments/assets/054ba2e9-4c6d-42f8-8459-6196c3e199fc)
+
+> In **Grant this service account access to the project** section, add a relevant **role** and click **Continue**.
+
+![Capture d’écran 2024-08-08 140457](https://github.com/user-attachments/assets/51e83caf-0547-4b51-8b71-2e2cfc1dc533)
+
+> Leave the remaining settings as they are(optional), and click **Ok**.
+
+![Capture d’écran 2024-08-08 140536](https://github.com/user-attachments/assets/71f4e50e-ef6b-4480-b52d-cb240b3de81c)
+
+> In the next window, on the right click to **Create a key**.
+
+![Capture d’écran 2024-08-08 140630](https://github.com/user-attachments/assets/1941ae22-fee5-46ca-b514-53d24461cfcf)
+
+> Choose **Add a key** and then choose **Create a new key** and **Create** to generate the key.
+
+![Capture d’écran 2024-08-08 140721](https://github.com/user-attachments/assets/cf2bd54a-738b-4ad6-a774-6c7b677136ab)
+![Capture d’écran 2024-08-08 140757](https://github.com/user-attachments/assets/1c1cb532-faf5-4b63-be62-00cc4d92209f)
+![Capture d’écran 2024-08-08 140829](https://github.com/user-attachments/assets/44554394-b9db-4617-a7d0-741fe1d85363)
+
 
 
 
