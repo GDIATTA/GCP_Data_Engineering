@@ -99,6 +99,23 @@ In **BigQuery**, we can create **a programm request** and **repository**.<br>
 ![Capture d’écran 2024-08-06 170348](https://github.com/user-attachments/assets/f54d0e23-581e-4e95-b111-fdf972cfd945)
 ![Capture d’écran 2024-08-06 170436](https://github.com/user-attachments/assets/b0e678ee-3515-4b07-a5f0-d3eb3f1cc0be)
 
+#### Chapter1: --------------- Data Transformation in BigQuery--------------------------:
+
+This tutorial describes the different ways you can transform data in your BigQuery tables.<br>
+
+
+##### Methods of transforming data <br>
+
+You can transform data in BigQuery in the following ways:<br>
+> Use **data manipulation language(DML)** to transform data in your BigQuery tables<br>
+> Use **Dataform** to develop, test, control versions and Schedule SQL workflows in BigQuery.<br>
+
+1. **Transform data with DML**<br>
+You can use **data manipulation language (DML)** to transform data in your BigQuery tables. DML statements are GoogleSQL queries that manipulate existing table data to **add or delete rows, modify data in existing rows, or merge data with values from another table**. **DML** transformations are also supported in partitioned tables.<br>
+
+You can run multiple **DML** statements concurrently, where BigQuery queues several **DML** statements that transform your data one after the other. BigQuery manages how concurrent **DML** statements are run, based upon the transformation type.<br>
+
+
 
 
 
